@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { App2 } from "./components/App2";
 function App() {
-  const [count, setCount] = useState(0)
+    const element = <h1>Hello, World!</h1>;  
+        const name = "John";
 
   return (
     <>
-      <h1>hiii this is my project</h1>
-    </>
+    {element}
+    
+    {/*simple jsx element */}
+    {/*<h1>i am Anjali</h1>*/}
+    {/* jsx with javascript expression */}
+   {/* <h1>Hello, {name}!</h1>; */}
+  
+   <App2/>
+  </>
   )
 }
 
